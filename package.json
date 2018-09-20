@@ -4,6 +4,8 @@
   "description": "Full stack React app tutorial.",
   "main": "index.js",
   "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "npm start --prefix client",
     "server": "nodemon server"
   },
   "repository": {
