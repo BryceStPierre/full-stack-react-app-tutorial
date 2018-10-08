@@ -3,10 +3,10 @@ var Weather = require('../models/weather');
 
 var router = express.Router();
 
-router.get('/:city', function (req, res) {
+router.get('/:city', (req, res) => {
   var city = req.params.city;
 
-  Weather.retrieveByCity(city, function (err, weather) {
+  Weather.retrieveByCity(city, (err, weather) => {
     if (err) 
       return res.json(err);
     return res.json(weather);
