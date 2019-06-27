@@ -1,2 +1,2 @@
-# Weather App
-A simple weather app, built following along my YouTube tutorial, using React, Express, and PostgreSQL.
+# Full Stack React App Tutorial
+A simple weather app, built for my full stack React app tutorial. Also features Reactstrap, Express, and PostgreSQL.
